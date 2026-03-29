@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tombayley.statusbar.service.ui.batterybar.BatteryBarView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_auto_start="false" app:shimmer_base_alpha="1.0" app:shimmer_direction="left_to_right" app:shimmer_dropoff="0.6" app:shimmer_duration="4000" app:shimmer_highlight_alpha="0.5" app:shimmer_repeat_delay="0" app:shimmer_repeat_mode="restart" app:shimmer_shape="linear">
+        <View android:id="@id/progress_bar" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</com.tombayley.statusbar.service.ui.batterybar.BatteryBarView>

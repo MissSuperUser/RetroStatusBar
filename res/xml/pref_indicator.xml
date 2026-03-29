@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/indicator_main">
+        <com.tombayley.statusbar.app.ui.common.premiumoverlay.SwitchPreferenceCompatOverlay android:title="@string/show_indicator" android:key="@string/key_show_indicator_main" android:summary="@string/show_indicator_main_desc" android:defaultValue="@bool/default_show_indicator_main" app:attr_requiresPremium="false" />
+        <Preference android:title="@string/style" android:key="@string/key_indicator_style" android:defaultValue="@string/default_indicator_style" app:icon="@drawable/ic_style" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <com.tombayley.statusbar.app.ui.common.preference.SingleAdPreference android:key="ad" />
+    <PreferenceCategory android:title="@string/indicator_setting_toggle">
+        <SwitchPreferenceCompat android:title="@string/show_indicator" android:key="@string/key_show_indicator_toggle" android:summary="@string/show_indicator_toggle_desc" android:defaultValue="@bool/default_show_indicator_toggle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_activity_indicators">
+        <com.tombayley.statusbar.app.ui.common.premiumoverlay.ColorPreferenceCompatOverlay android:title="@string/accent_color" android:key="@string/key_indicator_accent_color" android:defaultValue="@color/default_indicator_accent_color" app:attr_requiresPremium="true" app:cpv_showAlphaSlider="true" app:icon="@drawable/ic_color_palette" />
+        <com.tombayley.statusbar.app.ui.common.premiumoverlay.ColorPreferenceCompatOverlay android:title="@string/background_color" android:key="@string/key_indicator_background_color" android:defaultValue="@color/default_indicator_background_color" app:attr_requiresPremium="false" app:cpv_showAlphaSlider="true" app:icon="@drawable/ic_color_palette" />
+    </PreferenceCategory>
+</PreferenceScreen>

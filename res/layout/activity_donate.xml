@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/root_coord" android:background="?colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tombayley.statusbar.app.ui.common.PreferenceCategoryView android:id="@id/category" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr_addBottomMargin="true" app:attr_title="@string/title_activity_donate" />
+            <LinearLayout android:orientation="vertical" android:id="@id/content_list" android:padding="@dimen/activity_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donate_desc" />
+                <com.tombayley.statusbar.app.ui.donate.DonateButton android:id="@id/donate_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:onClick="onClick" app:attr_icon="@drawable/ic_donate" app:attr_iconTint="@color/material_red" app:attr_title="@string/donate_small" />
+                <com.tombayley.statusbar.app.ui.donate.DonateButton android:id="@id/donate_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:onClick="onClick" app:attr_icon="@drawable/ic_donate" app:attr_iconTint="@color/material_green" app:attr_title="@string/donate_medium" />
+                <com.tombayley.statusbar.app.ui.donate.DonateButton android:id="@id/donate_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:onClick="onClick" app:attr_icon="@drawable/ic_donate" app:attr_iconTint="@color/material_blue" app:attr_title="@string/donate_large" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

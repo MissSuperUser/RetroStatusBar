@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_action_double_tap">@string/key_action_turn_off_screen</string>
+</resources>

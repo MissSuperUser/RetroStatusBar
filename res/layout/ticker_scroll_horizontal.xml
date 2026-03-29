@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tombayley.statusbar.service.ui.ticker.styles.TickerScrollHorizontal android:layout_width="fill_parent" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tombayley.statusbar.service.ui.ticker.styles.extensions.HorizontalScrollViewNoTouch android:scrollbarSize="0.0dip" android:scrollbarAlwaysDrawHorizontalTrack="false" android:id="@id/horz_scrollview" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/horz_scrollview_child" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.tombayley.statusbar.service.ui.ticker.styles.extensions.HorizontalScrollViewNoTouch>
+</com.tombayley.statusbar.service.ui.ticker.styles.TickerScrollHorizontal>

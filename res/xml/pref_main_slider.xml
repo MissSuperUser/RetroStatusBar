@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings">
+        <com.tombayley.statusbar.app.ui.common.premiumoverlay.SwitchPreferenceCompatOverlay android:icon="@drawable/ic_auto_switch" android:title="@string/default_auto_change_main_slider" android:key="@string/key_auto_change_main_slider" android:summary="@string/default_auto_change_main_slider_desc" android:defaultValue="@bool/default_auto_change_main_slider" app:attr_requiresPremium="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

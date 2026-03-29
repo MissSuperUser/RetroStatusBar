@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/btDisagree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_disagree_no_thanks" style="@style/Widget.MaterialComponents.Button.TextButton" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@id/btAgree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_agree" style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+    </LinearLayout>
+    <Button android:id="@id/btNoConsentAtAll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_disagree_no_ads" style="@style/Widget.MaterialComponents.Button.TextButton" />
+</merge>
