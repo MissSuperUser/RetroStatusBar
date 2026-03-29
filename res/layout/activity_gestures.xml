@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_coord" android:background="?colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:name="com.tombayley.statusbar.app.ui.gestures.GesturesFragment" android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

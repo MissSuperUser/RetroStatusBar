@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.tombayley.statusbar.service.ui.ticker.TickerView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/temp_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ticker_icon" android:layout_width="@dimen/ticker_icon_size" android:layout_height="@dimen/ticker_icon_size" android:layout_marginEnd="8.0dip" />
-    <FrameLayout android:id="@id/ticker_text_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</com.tombayley.statusbar.service.ui.ticker.TickerView>

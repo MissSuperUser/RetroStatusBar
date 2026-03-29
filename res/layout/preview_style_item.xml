@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.tombayley.statusbar.app.ui.preview.style.recyclerview.PreviewStyleItem android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/preview_item_background" app:cardBackgroundColor="?colorBackground" app:cardCornerRadius="@dimen/corner_radius_main" app:cardElevation="@dimen/elevation_app"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textSize="16.0sp" android:ellipsize="none" android:gravity="center" android:id="@id/title" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" />
-        <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/style_container" android:paddingTop="16.0dip" android:paddingBottom="20.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
-    </LinearLayout>
-</com.tombayley.statusbar.app.ui.preview.style.recyclerview.PreviewStyleItem>

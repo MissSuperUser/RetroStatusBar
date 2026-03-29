@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/pref_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/pref_icon" app:layout_constraintTop_toTopOf="parent">
-        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <hearsilent.discreteslider.DiscreteSlider android:id="@id/seekbar" android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="22.0dip" android:minHeight="22.0dip" android:hapticFeedbackEnabled="false" app:ds_mode="range" app:ds_orientation="horizontal" app:ds_thumbRadius="6.0dip" app:ds_trackWidth="2.0dip" app:ds_valueLabelTextSize="16.0sp" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

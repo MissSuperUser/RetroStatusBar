@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cdflynn.android.library.checkview.CheckView android:id="@id/check" android:layout_width="32.0dip" android:layout_height="32.0dip" app:checkView_strokeColor="@android:color/white" app:checkView_strokeWidth="2.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
