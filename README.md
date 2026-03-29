@@ -7,6 +7,8 @@ Disable every system icon besides airplane mode, battery, network and wifi (keep
 Next, Change the items order by making it so that the clock is next to the system icons
 
 Then, Change system icons color to 33B5E5 to make the clock colored
+
+I also recommend enabling ticker text with custom colors for the good old notification ticker! 
 # How to build
 Use Apktool to build it, then sign and align the APK build. dunno how else to explain
 # Status bar Preview
