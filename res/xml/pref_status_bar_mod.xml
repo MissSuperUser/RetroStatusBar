@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_info" android:key="info" android:summary="@string/status_bar_mods_info" />
+    <PreferenceCategory android:title="@string/clock">
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_time" android:title="@string/setting_time" android:key="clock" />
+        <SwitchPreferenceCompat android:icon="@drawable/aosp_time" android:title="@string/sb_icon_clock_seconds" android:key="clock_seconds" />
+        <com.tombayley.statusbar.app.ui.common.preference.SingleAdPreference android:key="ad" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/common">
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_signal_wifi_4_bar" android:title="@string/setting_wifi" android:key="wifi" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_signal_cellular_4_bar" android:title="@string/sb_icon_network" android:key="mobile" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_airplanemode" android:title="@string/setting_airplane_mode" android:key="airplane" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_bluetooth" android:title="@string/setting_bluetooth" android:key="bluetooth" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_nfc" android:title="@string/setting_nfc" android:key="nfc" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_hotspot" android:title="@string/setting_hotspot" android:key="hotspot" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_battery_100" android:title="@string/setting_battery" android:key="battery" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_rotate_auto" android:title="@string/setting_rotation" android:key="rotate" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_dnd" android:title="@string/setting_dnd" android:key="zen" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_sound" android:title="@string/sb_icon_sound_mode" android:key="volume" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_location" android:title="@string/setting_location" android:key="location" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_headset" android:title="@string/setting_headset" android:key="headset" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_alarm" android:title="@string/setting_alarm" android:key="alarm_clock" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_data_saver" android:title="@string/setting_data_saver" android:key="data_saver" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_vpn" android:title="@string/setting_vpn" android:key="vpn" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_sync" android:title="@string/sb_icon_sync" android:key="sync_active" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_cast" android:title="@string/setting_casting" android:key="cast" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other">
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_data" android:title="@string/sb_icon_networkspeed" android:key="networkspeed" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_work_profile" android:title="@string/setting_work_profile" android:key="managed_profile" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_keyboard" android:title="@string/setting_ime" android:key="ime" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_signal_cellular_4_bar" android:title="@string/sb_icon_data_connection" android:key="data_connection" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_lock" android:title="@string/sb_icon_secure" android:key="secure" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_mic" android:title="@string/sb_icon_microphone" android:key="microphone" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_camera" android:title="@string/sb_icon_camera" android:key="camera" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/uncommon">
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_ethernet" android:title="@string/setting_ethernet" android:key="ethernet" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_signal_cellular_4_bar" android:title="@string/sb_icon_phone_signal" android:key="phone_signal" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:title="@string/sb_icon_cdma_eri" android:key="cdma_eri" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:title="@string/sb_icon_phone_evdo_signal" android:key="phone_evdo_signal" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_sync_problem" android:title="@string/sb_icon_sync_failing" android:key="sync_failing" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_volume_mute" android:title="@string/setting_mute" android:key="mute" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:title="@string/sb_icon_tty" android:key="tty" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_speakerphone" android:title="@string/sb_icon_speakerphone" android:key="speakerphone" />
+        <com.tombayley.statusbar.app.ui.common.preference.StatusBarIconBlacklistSwitchPreference android:icon="@drawable/aosp_sensor" android:title="@string/sb_icon_sensors_off" android:key="sensors_off" />
+    </PreferenceCategory>
+</PreferenceScreen>

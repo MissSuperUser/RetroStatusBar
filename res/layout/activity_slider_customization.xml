@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tombayley.statusbar.app.ui.common.PreferenceCategoryView android:id="@id/category" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr_addBottomMargin="true" app:attr_title="@string/title_activity_main_slider" />
+            <com.tombayley.statusbar.app.ui.views.InfoText android:id="@id/info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr_accentColor="?colorTextHighlight" app:attr_text="@string/sliders_reorder_info" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <fragment android:name="com.tombayley.statusbar.app.ui.sliders.MainSliderFragment" android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

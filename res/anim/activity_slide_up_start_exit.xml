@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:interpolator/decelerate_quint" android:shareInterpolator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="@integer/anim_duration_activity_left_right" android:fromYDelta="0.0%" android:toYDelta="-20.000004%" />
+    <scale android:duration="@integer/anim_duration_activity_left_right" android:pivotX="50.0%" android:pivotY="50.0%" android:fromXScale="1.0" android:toXScale="0.9" android:fromYScale="1.0" android:toYScale="0.9" />
+    <alpha android:duration="@integer/anim_duration_activity_left_right" android:fromAlpha="1.0" android:toAlpha="0.3" />
+</set>

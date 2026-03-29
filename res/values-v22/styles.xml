@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light" />
+    <style name="Button.Elevated" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?colorTextOpposite</item>
+        <item name="android:drawablePadding">@dimen/button_drawable_padding</item>
+        <item name="android:fillColor">@color/colorAccent</item>
+        <item name="android:drawableTint">?colorTextOpposite</item>
+        <item name="rippleColor">?colorTextOpposite</item>
+    </style>
+    <style name="Button.Outlined" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:drawablePadding">@dimen/button_drawable_padding</item>
+        <item name="android:drawableTint">?colorTextOpposite</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="strokeColor">?colorVerySoft</item>
+    </style>
+    <style name="Button.Text" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:drawablePadding">@dimen/button_drawable_padding</item>
+        <item name="android:drawableTint">?colorTextOpposite</item>
+        <item name="rippleColor">@color/colorAccent</item>
+    </style>
+    <style name="Button.Unelevated" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?colorTextOpposite</item>
+        <item name="android:drawablePadding">@dimen/button_drawable_padding</item>
+        <item name="android:fillColor">@color/colorAccent</item>
+        <item name="android:drawableTint">?colorTextOpposite</item>
+        <item name="rippleColor">?colorTextOpposite</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+</resources>

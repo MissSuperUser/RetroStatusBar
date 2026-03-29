@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/native_ad_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/content_holder" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="12.0dip">
+            <com.tombayley.statusbar.app.ui.ads.widget.AdIconView android:id="@id/ad_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="4.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:id="@id/headline" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minLines="2" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cta" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/cta" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Button.Elevated" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/body" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/price_rating_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/gnt_text_size_small" android:textColor="@color/gnt_gray" android:gravity="center_vertical" android:id="@id/price" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:layout_marginEnd="@dimen/preference_slim_info_row_item_spacing" />
+                    <androidx.appcompat.widget.AppCompatRatingBar android:id="@id/star_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="5" android:numStars="0" style="?android:ratingBarStyleSmall" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                    <com.tombayley.statusbar.app.ui.ads.widget.AdNotificationView android:id="@id/ad_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/preference_slim_info_row_item_spacing" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/gnt_text_size_small" android:textColor="@color/gnt_gray" android:gravity="center_vertical" android:id="@id/store" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:layout_marginEnd="@dimen/preference_slim_info_row_item_spacing" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/gnt_text_size_small" android:textColor="@color/gnt_gray" android:gravity="center_vertical" android:id="@id/advertiser" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</merge>

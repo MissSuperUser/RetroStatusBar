@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" style="?android:progressBarStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="center|bottom" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:onClick="onClick" app:backgroundTint="@color/colorAccent" app:srcCompat="@drawable/ic_check" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

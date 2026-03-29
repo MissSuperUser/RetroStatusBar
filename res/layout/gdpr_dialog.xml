@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llPages" android:paddingLeft="?dialogPreferredPadding" android:paddingTop="18.0dip" android:paddingRight="?dialogPreferredPadding" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/llPage0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" android:textStyle="bold" android:id="@id/tvText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text1_part1" android:textAlignment="center" />
+                    <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvText2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text2_singular" />
+                    <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" android:textStyle="bold" android:id="@id/tvQuestion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_question" android:textAlignment="center" />
+                    <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvText3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gdpr_small_padding" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text3" />
+                </LinearLayout>
+            </ScrollView>
+            <CheckBox android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/cbAge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/gdpr_dialog_confirm_age" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/gdpr_dialog_bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llPage1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvServiceInfo1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text_info1" />
+            <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/gdpr_small_padding" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvServiceInfo2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+            </ScrollView>
+            <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvServiceInfo3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text_info3" />
+            <Button android:id="@id/btBack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_back" style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llPage2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" android:id="@id/tvNonPersonalisedInfo1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdpr_small_padding" android:text="@string/gdpr_dialog_text_explicit_non_personalised_info1" />
+            <Button android:id="@id/btAgreeNonPersonalised" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdpr_dialog_agree" style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/premium_overlay_max_size" android:layout_height="@dimen/premium_overlay_max_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/overlay_shadow" android:background="@drawable/premium_overlay_corner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/overlay_badge" android:background="@drawable/premium_overlay_corner_badge" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

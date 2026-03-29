@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tombayley.statusbar.service.ui.indicator.IndicatorView android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="64.0dip" android:layout_height="64.0dip" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:lines="1" />
+</com.tombayley.statusbar.service.ui.indicator.IndicatorView>

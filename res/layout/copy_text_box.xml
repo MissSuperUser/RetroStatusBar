@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tombayley.statusbar.app.ui.common.widgets.CopyTextButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/selectable_text_background" app:cardBackgroundColor="?colorBackgroundHighlight" app:cardCornerRadius="@dimen/corner_radius_main" app:cardElevation="0.0dip" app:contentPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="?colorText" android:gravity="center" android:id="@id/copy_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/copy_btn" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/copy_btn" android:layout_width="20.0dip" android:layout_height="20.0dip" android:tint="?colorTextSoft" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_copy" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.tombayley.statusbar.app.ui.common.widgets.CopyTextButton>

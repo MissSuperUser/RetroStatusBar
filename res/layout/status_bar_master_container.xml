@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tombayley.statusbar.service.ui.statusbar.StatusBarContainer android:layout_width="fill_parent" android:layout_height="@dimen/temp_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/status_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ticker_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/battery_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.tombayley.statusbar.service.ui.statusbar.StatusBarContainer>
